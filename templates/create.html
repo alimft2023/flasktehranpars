@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+
+{% block content %}<h1>
+    news page</h1>
+<form action="" method="post">
+    <label for="name">name:</label>
+    <input type="text" name="name" required> <br> <br>
+
+    <label for="email">email:</label>
+    <input type="text" name="email" required> <br> <br>
+    <input type="submit" value="create">
+</form>
+{% endblock content %}
+
+{% block title %}create{% endblock title %}
+
+{% block bgcolor %}skyblue{% endblock bgcolor %}
